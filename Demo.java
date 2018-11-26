@@ -16,6 +16,8 @@ public class Demo {
 			// Student s = sdao.getStudentByKey(1);
 			// s.print();
 
+			edao.getEmployeeTypeStats();
+
 			daoFactory.deactivateConnection();
 		}catch(Exception e){
 				//Handle errors for Class.forName
